@@ -1,5 +1,5 @@
 # WYBRANO ZADANIE nr2
-Temat: Rozwijanie funkcji trygonometrycznych w szereg Maclaurina
+Temat: Obliczanie wartosc funkcji trygonometrycznych poprzez rozwiniecie w szereg Maclaurina
 Wybrane funkcje:
 1.sin(x)
 2.cos(x)
