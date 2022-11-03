@@ -7,7 +7,7 @@
 int main(void)
 {
 
- short upperlimit = SIZE_OF_FACT_ARRAY;                                //{
+ const  short int UPPERLIMIT = SIZE_OF_FACT_ARRAY;                                //{
  long int array_of_factorials_0_to_limit[SIZE_OF_FACT_ARRAY];          // 
  float xstart = 0,step =0;                                             //
  short number_of_modifications = 0, number_of_components = 0;          //
@@ -17,7 +17,7 @@ int main(void)
  short *number_of_modifications_ptr = &number_of_modifications;        //}
 
  //Calculating factorials and writing results into array
- calc_factorial_from_zero_to_limit(upperlimit,array_of_factorials_0_to_limit); // write factorial of  each number (from 0 to SIZE_OF_FACT_ARRAY) to correct index
+ calc_factorial_from_zero_to_limit(UPPERLIMIT,array_of_factorials_0_to_limit); // write factorial of  each number (from 0 to SIZE_OF_FACT_ARRAY) to correct index
  show_interface(xstart_ptr,step_ptr,number_of_modifications_ptr,number_of_components_ptr);// display interface and collect some data from user 
  int error = check_data_from_user(number_of_components_ptr,number_of_modifications_ptr,xstart_ptr,step_ptr);// assigning the number of errors to the error variable 
  displaying_xstart = xstart;  
