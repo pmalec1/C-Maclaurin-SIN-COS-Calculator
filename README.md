@@ -120,7 +120,7 @@ sin(0.50) = 0.479 		cos(0.50) = 0.878
 ```
 ## RULES
 * All input data should be numbers
-* Number of  components(value variable named ""  ) must be between 0 and 9
-* Number of interations(value variable named ""  ) must be positive greater or equal to 0 
+* Number of  components(value variable named "number_of_components"  ) must be between 0 and 9 it depends on size of variable
+* Number of interations(value variable named "number_of_modifications"  ) must be positive greater or equal to 0 
 * The program takes into account the periodicity of the sine  and cosine functions for better results (approximations)
 it is caused by approximation of the function value with Maclaurin series.
