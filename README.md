@@ -11,16 +11,20 @@
         2.cos(x)
 
 ### Variables in program:
-* 1 v1
-* 2 v2 
-* 3 v3 
-* 4 v4
+	* 1 xstart - starting value of x
+	* 2 number_of_modification - number of steps
+	* 3 number_of_components -number of Maclaurin's series' components
+	* 4 step - step of x in one iteration
+	* 5 error - number of errors in input data
+	* array_of_factorials_0_to_limit[SIZE_OF_FACT_ARRAY] - array with factorials 
 ### Functions used by the program
-    Program uses functions included in the library my_library.c
-    * f1
-    * f2
-    * f3
-    * f4
+Program uses functions included in the library my_library.c
+
+    *  calc_factorial_from_zero_to_limit - calculate factorials and write it into array
+    *  maclaurin_sinus - calculate sinus
+    *  maclaurin_cosinus - calculate cosinus
+    *  show_interface     - show UI
+	*  check_data_from_user -check  input data
 ### Examples of using 
 > Exemplary input and output  values
 ```
