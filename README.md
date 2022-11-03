@@ -11,20 +11,34 @@
         2.cos(x)
 
 ### Variables in program:
-	* 1 xstart - starting value of x
-	* 2 number_of_modification - number of steps
-	* 3 number_of_components -number of Maclaurin's series' components
-	* 4 step - step of x in one iteration
-	* 5 error - number of errors in input data
-	* array_of_factorials_0_to_limit[SIZE_OF_FACT_ARRAY] - array with factorials 
+	* 1 float xstart - starting value of x
+	* 2 short int number_of_modification - number of steps
+	* 3 short int number_of_components -number of Maclaurin's series' components
+	* 4 float step - step of x in one iteration
+	* 5 short int error - number of errors in input data
+	* 6 long  int array_of_factorials_0_to_limit[SIZE_OF_FACT_ARRAY] - array with factorials 
 ### Functions used by the program
-Program uses functions included in the library my_library.c
+##### Program uses functions included in the library my_library.c
+	long int calculate_factorial_function( short factorial_argument); --calculate factorial for one argument
 
-    *  calc_factorial_from_zero_to_limit - calculate factorials and write it into array
-    *  maclaurin_sinus - calculate sinus
-    *  maclaurin_cosinus - calculate cosinus
-    *  show_interface     - show UI
-	*  check_data_from_user -check  input data
+
+	long int calc_factorial_from_zero_to_limit(const short UPPERLIMIT,long int array_of_factorials[UPPERLIMIT]) ;
+	--write values of factorials for each argument from 0 to limit in an array
+
+	void show_interface(float *xstart, float *step, short *number_of_modifications, short *number_of_components);
+	--show UI
+
+	int check_data_from_user(short *number_of_components, short *number_of_modifications, float *xstart, float *step);
+
+
+	float maclaurin_sinus(float starting_point,short max_step,long int array_of_factorials_0_to_limit[SIZE_OF_FACT_ARRAY] );
+	--calculate(aproximation) value of sinus using Maclaurin's series
+
+	float maclaurin_cosinus(float starting_point,short max_step,long int array_of_factorials_0_to_limit[SIZE_OF_FACT_ARRAY] );
+	----calculate(aproximation) value of sinus using Maclaurin's series
+
+
+
 ### Examples of using 
 > Exemplary input and output  values
 ```
