@@ -4,21 +4,21 @@
 #include "my_library.h"
 #include <math.h>
 
-long int calculate_factorial_function( short factorial_argument)
+ long int calculate_factorial_function( short factorial_argument)
 {
   long int temp_var = 1;
-  for(short i = 1; i <= factorial_argument; i++)
+  for(unsigned short int i = 1; i <= factorial_argument; i++)
   { 
     temp_var = temp_var * i;
   }
 return temp_var;
 }
-long int calc_factorial_from_zero_to_limit(short upperlimit,long int array_of_factorials[upperlimit]) 
+ long int calc_factorial_from_zero_to_limit( const  short int UPPERLIMIT, long int array_of_factorials[UPPERLIMIT]) 
 {
  array_of_factorials[0]=1;
  
- long int result_of_calc;
-   for(short i = 1 ; i <= upperlimit ; i++) 
+  long int result_of_calc;
+   for(unsigned short int i = 1 ; i <= UPPERLIMIT ; i++) 
    {
     result_of_calc = calculate_factorial_function(i);
     array_of_factorials[i] = result_of_calc;
