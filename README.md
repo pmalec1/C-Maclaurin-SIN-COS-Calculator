@@ -1,4 +1,4 @@
-# PIOTR MALEC 318544
+# PIOTR MALEC
 > Oswiadczam ze praca zostala wykonana przeze mnie samodzielnie
 ### PROJECT STATUS 
 > Complete 
@@ -9,7 +9,10 @@
 
         1.sin(x)
         2.cos(x)
-	![SinCos](https://raw.githubusercontent.com/pmalec1/Maclaurin-SIN-COS-Calculator/main/SinCos.png)
+	
+  <p align="center">
+  <img src="sin-cos.png">
+</p>
 	
 ### Variables in program:
 	* 1 float xstart - starting value of x
