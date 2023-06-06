@@ -1,8 +1,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "my_library.h"
 #include <math.h>
+#include "my_library.h"
 
  long int calculate_factorial_function( short factorial_argument)
 {
