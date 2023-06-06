@@ -13,9 +13,11 @@
   <p align="center">
   <img src="sin-cos.png">
 </p>
+
 ### How to run?
      gcc main.c my_library.c -lm  //to compile
      ./a.out 		          //to run
+     
 ### Variables in program:
 	* 1 float xstart - starting value of x
 	* 2 short int number_of_modification - number of steps
