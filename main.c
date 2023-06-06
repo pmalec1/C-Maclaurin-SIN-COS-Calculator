@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "my_library.h"
-#include "my_library.c"
-
 
 int main(void)
 {
