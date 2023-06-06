@@ -9,7 +9,8 @@
 
         1.sin(x)
         2.cos(x)
-
+	![SinCos](https://raw.githubusercontent.com/pmalec1/Maclaurin-SIN-COS-Calculator/main/SinCos.png)
+	
 ### Variables in program:
 	* 1 float xstart - starting value of x
 	* 2 short int number_of_modification - number of steps
